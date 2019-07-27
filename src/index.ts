@@ -22,4 +22,10 @@
  *
  */
 
-console.log("Hello, world!");
+import { HeartBeat } from "./Heartbeat";
+
+(async (): Promise<void> => {
+
+	console.log(await HeartBeat.generate());
+
+})().then(() => {}).catch((err: any) => console.error(err));
