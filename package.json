@@ -25,7 +25,11 @@
 		"url": "https://github.com/ampel-heartbeat/background/issues"
 	},
 	"homepage": "https://github.com/ampel-heartbeat/background#readme",
-	"dependencies": {},
+	"dependencies": {
+		"@elijahjcobb/process": "0.0.1",
+		"osx-temperature-sensor": "^1.0.3",
+		"systeminformation": "latest"
+	},
 	"devDependencies": {
 		"@types/node": "latest",
 		"typescript": "latest",
